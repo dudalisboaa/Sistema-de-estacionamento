@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #b8727e;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    background-color: #9F3232;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+h1 {
+    color: #EF6D6D;
+    font-size: 60px;
+}
+
+h2{
+    color: #4B1919;
+    font-size: 40px;
+}
+
+form {
+    background: #EF6D6D;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #4B1919;
+    border-radius: 15px;
+    outline: none;
+    height: 5vh;
+    width: 30vw;
+}
+
+button {
+    padding: 10px 20px;
+    background: #9F3232;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #bd5050;
+}
+
+/* table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ff66b2;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff99cc;
+    color: white;
+}
+
+td button {
+    background: #ff4da6;
+}
+
+td button:hover {
+    background: #cc3b85;
+} */
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #9F3232;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #821b1b;
+    border-radius: 5px;
+    color: white;
+}
+th {
+    background-color: #7a1b1b;
+    color: white;
+}
+
+.delete {
+    background-color: #b71c1c;
+    color: white;
+}
+.edit {
+    background-color: #8d2828;
+    color: white;
+}
