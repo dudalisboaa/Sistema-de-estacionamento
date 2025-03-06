@@ -50,6 +50,6 @@ async function editCar(id){
         alert(result.message)
  
     }
- 
+    location.reload()
 }
 loadCars()

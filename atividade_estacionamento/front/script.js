@@ -21,5 +21,10 @@ document.getElementById("car-form").addEventListener("submit", async function (e
     } else {
         alert('Erro ao adicionar carro!')
     }
+
+    window.location.href = "http://front/lista.html";
+
 })
+
+
 
